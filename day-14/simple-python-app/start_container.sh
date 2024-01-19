@@ -6,4 +6,4 @@ docker pull jagratiagarwal/my-first-build-image:latest
 
 
 # Run the Docker image as a container
-docker run -d -p 5000:5000
+docker run -d -p 5000:5000 jagratiagarwal/my-first-build-image:latest
