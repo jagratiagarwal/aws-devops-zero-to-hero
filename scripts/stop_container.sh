@@ -2,6 +2,7 @@
 set -e 
 
 # Stop the running container (if any)
+echo "hi"
 #container_id=$(docker ps | awk -F " " '{print $1}')
 #echo "$conatiner_id"
 #docker rm -f $container_id
