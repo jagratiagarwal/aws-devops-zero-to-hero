@@ -2,6 +2,7 @@
 set -e
 
 # Pull the Docker image from Docker Hub
+echo "hi"
 docker pull jagratiagarwal/my-first-build-image:latest 
 
 # Run the Docker image as a container
